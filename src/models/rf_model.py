@@ -125,5 +125,4 @@ class RF():
     
     def pred_testset(self, test_X, model):
         pred = model.predict(test_X)
-        test_X['is_applied'] = pred
         return pred
